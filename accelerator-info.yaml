@@ -1,0 +1,15 @@
+id: 4d81e300-d0f1-4b23-b542-f7b5a74993b2
+timestamp: 2025-03-04T01:26:54.286Z
+source: TAP-GUI
+username: guest
+options:
+  projectName: csharp-rest-service
+  applicationName: CustomerProfileAPI
+  databaseType: postgres
+  exposeOpenAPIEndpoint: false
+  databaseName: customer-database
+accelerator:
+  name: csharp-rest-service
+fragments:
+  - name: steeltoe-postgresql
+  - name: tap-workload

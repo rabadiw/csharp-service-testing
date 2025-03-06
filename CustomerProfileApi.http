@@ -1,0 +1,17 @@
+@CustomerProfileApi_HostAddress = http://localhost:5184
+@CustomerProfileApi_Acutator_HostAddress = http://localhost:9090
+
+GET {{CustomerProfileApi_Acutator_HostAddress}}/actuator/health
+Accept: application/json
+
+###
+
+GET {{CustomerProfileApi_HostAddress}}/api/customer-profiles
+Accept: application/json
+
+###
+
+GET {{CustomerProfileApi_HostAddress}}/api/certs HTTP/1.1
+Accept: application/json
+
+###
