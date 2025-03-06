@@ -37,7 +37,7 @@ spec:
 
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/rabadiw/csharp-service-testing.git
       ref:
         branch: main
 
